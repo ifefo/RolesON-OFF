@@ -1,12 +1,12 @@
 command roleson(){
   permission = "Roles.Open";
   execute(){
-    effectManager.sendUI(20001); // Change 20001 for your effectid
+    effectManager.sendUI(20001);
     }
 }
 
 command rolesoff(){
   permission = "Roles.Close";
   execute(){
-    effectManager.clearUIbyID(20001); // Change 20001 for your effectid
+    effectManager.clearUIbyID(20001);
     }
